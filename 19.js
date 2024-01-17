@@ -1,20 +1,27 @@
 $(document).ready(function() {
-
-    $('.workGrid img').hover(
-        function() { // 
-            $(this).addClass('hovered-img');
-        },
-        function() { // 
-            $(this).removeClass('hovered-img');
-        }
-    );
+    $('.workGrid img').on('mouseenter', function() {
+        $(this).addClass('hovered-img');
+    }).on('mouseleave', function() {
+        $(this).removeClass('hovered-img');
+    });
+});
 
     $('.loopGrid img').hover(
-        function() { // 
+        function() {
             $(this).addClass('hovered-img');
         },
-        function() { 
+        function() {
             $(this).removeClass('hovered-img');
         }
-    );
-});
+    ); 
+
+    $('.sojourniGrid img').hover(
+        function() {
+            $(this).addClass('hovered-img');
+        },
+        function() {
+            $(this).removeClass('hovered-img');
+        }
+    ); 
+
+    
