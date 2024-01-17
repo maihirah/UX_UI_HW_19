@@ -18,8 +18,8 @@ body {
 }
 
 ul.nav-list {
-  position: absolute;
-  top:30px;
+    position: absolute;
+  top: 60px;
   right: 0;
   display: flex;
   gap: 30px;
