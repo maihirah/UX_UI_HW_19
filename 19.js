@@ -1,2 +1,20 @@
-        console.log("Your index.js file is loaded correctly");
-console.log("Hello world!");
+$(document).ready(function() {
+
+    $('.workGrid img').hover(
+        function() { // 
+            $(this).addClass('hovered-img');
+        },
+        function() { // 
+            $(this).removeClass('hovered-img');
+        }
+    );
+
+    $('.loopGrid img').hover(
+        function() { // 
+            $(this).addClass('hovered-img');
+        },
+        function() { 
+            $(this).removeClass('hovered-img');
+        }
+    );
+});
